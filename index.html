@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Viora Stream Player.">
+  <title>Viora Stream Player Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #090a0d;
+      --surface: #15171d;
+      --text: #f5f5f7;
+      --muted: #a7a9b2;
+      --accent: #ff4b23;
+      --border: #292c35;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 80% -10%, rgba(255, 75, 35, .25), transparent 35rem),
+        var(--background);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(860px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+    header { margin-bottom: 42px; }
+    .mark {
+      display: inline-grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      background: var(--accent);
+      color: white;
+      font-weight: 800;
+      font-size: 28px;
+    }
+    h1 { margin: 18px 0 4px; font-size: clamp(36px, 7vw, 62px); line-height: 1.05; }
+    h2 { margin-top: 0; font-size: 22px; }
+    p { color: var(--muted); }
+    .lead { max-width: 680px; font-size: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; }
+    .card {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(21, 23, 29, .88);
+    }
+    a { color: #ff896f; }
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 11px 17px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    footer { margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark" aria-hidden="true">V</div>
+      <h1>Viora Support</h1>
+      <p class="lead">Help with Viora Stream Player, your private organizer and player for authorized M3U and M3U8 media sources.</p>
+    </header>
+
+    <section class="grid" aria-label="Support topics">
+      <article class="card">
+        <h2>Add a media source</h2>
+        <p>Open Playlists, choose Add Playlist, then enter a valid M3U or M3U8 address supplied by a service you are authorized to use.</p>
+      </article>
+      <article class="card">
+        <h2>Restore Viora Pro</h2>
+        <p>Open the Viora Pro screen and select Restore Purchases. Use the same Apple Account that made the original purchase.</p>
+      </article>
+      <article class="card">
+        <h2>Playback help</h2>
+        <p>Confirm that the source is online and that your device has a working internet connection. Stream availability and format support are controlled by the source provider.</p>
+      </article>
+      <article class="card">
+        <h2>Privacy</h2>
+        <p>Read how Viora protects playlist credentials, library data, advertising consent, and purchase information.</p>
+        <a href="privacy.html">Read the Privacy Policy</a>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Contact support</h2>
+      <p>Email <a href="mailto:douglasgj@gmail.com">douglasgj@gmail.com</a> and include the device model, iOS version, and a short description of the problem. Do not send playlist passwords or other credentials.</p>
+    </section>
+
+    <footer>
+      <p>Viora does not provide, host, sell, or endorse media, channels, movies, series, or playlists. Users must add only sources and content they are authorized to access.</p>
+      <p>© 2026 Douglas Galisteo de Jesus</p>
+    </footer>
+  </main>
+</body>
+</html>
