@@ -1,0 +1,11 @@
+#EXTM3U
+# Viora open-content demonstration playlist.
+# The films remain the property of their creators and are distributed
+# by the Blender Foundation under the Creative Commons Attribution 3.0 license.
+# Rights information: https://douglasgj.github.io/viora-support/open-content.html
+
+#EXTINF:-1 tvg-id="sintel-trailer" group-title="Open Movies",Sintel Trailer (CC BY 3.0)
+https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4
+
+#EXTINF:-1 tvg-id="tears-of-steel" group-title="Open Movies",Tears of Steel (CC BY 3.0)
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
