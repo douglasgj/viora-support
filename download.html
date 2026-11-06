@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download the temporary Viora Android test build.">
+  <title>Download Viora for Android</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #090a0d;
+      --surface: #15171d;
+      --text: #f5f5f7;
+      --muted: #a7a9b2;
+      --accent: #ff4b23;
+      --border: #292c35;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 80% -10%, rgba(255, 75, 35, .25), transparent 35rem),
+        var(--background);
+      color: var(--text);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0; }
+    .mark {
+      display: inline-grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      background: var(--accent);
+      color: white;
+      font-weight: 800;
+      font-size: 28px;
+    }
+    h1 { margin: 18px 0 6px; font-size: clamp(34px, 7vw, 56px); line-height: 1.08; }
+    h2 { margin-top: 0; }
+    p, li { color: var(--muted); }
+    .card {
+      margin-top: 22px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(21, 23, 29, .9);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 13px 19px;
+      border-radius: 13px;
+      background: var(--accent);
+      color: white;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    a { color: #ff896f; }
+    code { overflow-wrap: anywhere; color: #d8dae2; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">V</div>
+    <h1>Viora for Android</h1>
+    <p>Temporary test build, version 1.2. The official Google Play release is still being prepared.</p>
+
+    <section class="card">
+      <h2>Download</h2>
+      <p>This APK is intended only for Viora testing. Android may ask you to allow installation from this browser.</p>
+      <a class="button" href="viora-android-1.2-test.apk" download>Download Viora 1.2</a>
+      <p>SHA-256:<br><code>0d150c86735d3e49a9cc4a09ce7ffcbb3e526ef220250808e9366d325c484817</code></p>
+    </section>
+
+    <section class="card">
+      <h2>Install</h2>
+      <ol>
+        <li>Download the APK on the Android phone.</li>
+        <li>Open the downloaded file.</li>
+        <li>If requested, allow this browser to install unknown apps.</li>
+        <li>Choose Install, then open Viora.</li>
+      </ol>
+      <p>Google Play purchases may not work in this temporary build. Use the Google Play version for purchase testing.</p>
+    </section>
+
+    <section class="card" lang="pt">
+      <h2>Instruções em português</h2>
+      <ol>
+        <li>Baixe o APK no celular Android.</li>
+        <li>Abra o arquivo baixado.</li>
+        <li>Se solicitado, permita que o navegador instale apps desconhecidos.</li>
+        <li>Toque em Instalar e depois abra o Viora.</li>
+      </ol>
+      <p>As compras do Google Play podem não funcionar nesta versão temporária.</p>
+    </section>
+
+    <p><a href="index.html">Back to Viora Support</a></p>
+  </main>
+</body>
+</html>
